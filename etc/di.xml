@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * Copyright © Magefan (support@magefan.com). All rights reserved.
+ * Please visit Magefan.com for license details (https://magefan.com/end-user-license-agreement).
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magefan\AutoRelatedProduct\Api\PositionsInterface">
+        <arguments>
+            <argument name="options" xsi:type="array">
+                <item name="custom" xsi:type="array">
+                    <item name="label" xsi:type="string">Custom (Plus)</item>
+                    <item name="value" xsi:type="string">custom</item>
+                </item>
+                <item name="cart_page" xsi:type="array">
+                    <item name="label" xsi:type="string">Shopping Cart Page (Plus)</item>
+                    <item name="value" xsi:type="array">
+                        <item name="cart_before_crossSell" xsi:type="array">
+                            <item name="label" xsi:type="string">Before Native Cross-sells Block</item>
+                            <item name="value" xsi:type="string">cart_before_crossSell</item>
+                            <item name="parent" xsi:type="string">crosssell</item>
+                        </item>
+                        <item name="cart_after_crossSell" xsi:type="array">
+                            <item name="label" xsi:type="string">After Native Cross-sells Block</item>
+                            <item name="value" xsi:type="string">cart_after_crossSell</item>
+                            <item name="parent" xsi:type="string">crosssell</item>
+                        </item>
+                        <item name="cart_into_crossSell" xsi:type="array">
+                            <item name="label" xsi:type="string">Add into Native Cross-sells Block</item>
+                            <item name="value" xsi:type="string">cart_into_crossSell</item>
+                        </item>
+                    </item>
+                </item>
+            </argument>
+        </arguments>
+    </type>
+</config>
