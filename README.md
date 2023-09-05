@@ -9,7 +9,7 @@
 
 It is an integration module between Hyva Theme and [Magento 2 Auto-Related Products Plus](https://magefan.com/magento-2-automatic-related-products/pricing) by Magefan.
 
-<a href="https://github.com/magefan/hyva-theme-auto-related-product-plus/archive/refs/heads/main.zip"><img width="190" height="70" src="https://magefan.com/media/wysiwyg/download-now_1.png"></a>
+<a href="https://github.com/magefan/hyva-theme-auto-related-product-plus/archive/refs/heads/main.zip"><img width="190" height="70" src="https://cm.magefan.com/wysiwyg/products/download-magefan-extensions.png"></a>
 
 ## Requirements
 * [Magefan Auto-Related Products Extension](https://github.com/magefan/module-auto-related-product)
