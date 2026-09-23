@@ -14,6 +14,7 @@ It is an integration module between Hyva Theme and [Magento 2 Auto-Related Produ
 ## Requirements
 * [Magefan Auto-Related Products Extension](https://github.com/magefan/module-auto-related-product)
 * [Hyvä Theme](https://hyva.io/)
+* [Hyva Theme Magefan Auto-Related Products Extension](https://github.com/magefan/hyva-theme-auto-related-product)
 
 ## Installation
 ```
